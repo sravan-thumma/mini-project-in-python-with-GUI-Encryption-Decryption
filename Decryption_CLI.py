@@ -1,5 +1,4 @@
 import string
-sravan-thumma/Encryption-Decryption-mini-project-with-GUI
 def rot13(txt):
     rot13trans=str.maketrans('NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghi@!#^~{":;?/|}>','ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz 123456789')
     return txt.translate(rot13trans)
